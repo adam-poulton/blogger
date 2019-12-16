@@ -262,7 +262,7 @@ a:hover {
   color: #233245
 }
 
-p.flash {
+div.flash {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px;
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px;
@@ -305,7 +305,7 @@ p.flash {
   border-top: 0
 }
 
-p.flash:empty {
+div.flash:empty {
   height: 0px;
   overflow: hidden;
   padding: 0;
@@ -314,7 +314,8 @@ p.flash:empty {
   -webkit-box-shadow: none;
   -o-box-shadow: none;
   box-shadow: none;
-  background: none
+  background: none;
+  display: none;
 }
 
 h1 {
